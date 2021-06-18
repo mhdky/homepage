@@ -1,0 +1,151 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: tahoma;
+}
+
+/* ----------------Awal Header---------------- */
+
+.container {
+    border-bottom: 1px solid rgb(233, 229, 229);
+}
+header {
+    max-width: 1000px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo {
+    padding-top: 5px;
+    font-size: 2em;
+    font-family: 'Niconne', cursive;  
+    color: rgb(38, 138, 231);
+    font-weight: bold;
+}
+.header-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;    
+}
+.header-list li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+}
+.header-list li a {
+    text-decoration: none;
+    color: black;
+}
+.header-list li a:hover {
+    color: rgb(148, 148, 148);
+}
+
+/* ----------------Akhir Header---------------- */
+
+/* ----------------Awal Main---------------- */
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+/* -------------Container---------------- */
+
+.container-dua {
+    display: flex;
+    width: 100%;
+    order: 2;
+}
+
+.container-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-list ul {
+    list-style: none;
+}
+
+.container-list li {
+    padding-top: 20px;
+}
+
+
+.container-intro {
+    margin: 0 50px;
+    width: 500px;
+}
+
+.container-intro h1, .container-intro p:nth-child(2) {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.garis {
+    background-color: rgb(38, 138, 231);
+    width: 130px;
+    height: 3px;
+}
+
+.container-intro p:nth-child(4) {
+    text-align: justify;
+    line-height: 35px;
+    font-size: 1em;
+}
+
+.button {
+    background-color: rgb(38, 138, 231);
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+}
+
+.container-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-button:hover {
+    opacity: 0.7;
+}
+
+.container-profil {
+    margin-left: 40px;
+    order: 1;
+}
+
+.container-profil img{
+    border-radius: 100px;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+
+/* ----------------Akhir Main---------------- */
+
+
+/* Responsive */
+
+@media (min-width:600px) {
+    main {
+        max-width: 1000px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .container-profil {
+        order: 2;
+    }
+
+    .container-profil img {
+        margin-left: 0;
+    }
+    
+}
