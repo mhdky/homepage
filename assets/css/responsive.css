@@ -1,0 +1,1625 @@
+/* navigasi section */
+@media screen and (max-width:481px) {
+    nav {
+        bottom: 0;
+    }
+
+    .container-nav {
+        width: 100%;
+        border-radius: 0;
+        justify-content: space-between;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .list {
+        margin: 0;
+        padding: 2px 1px;
+    }
+
+    .list img {
+        width: 17px;
+    }
+
+    .list p {
+        font-size: .8rem;
+    }
+    
+    .list i {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .list p {
+        font-size: .7rem;
+    }
+    
+    .list i {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width:614px) {
+    .profil {
+        bottom: -110px;
+        left: 30px;
+    }
+
+    .profil-img {
+        width: 150px;
+    }
+
+    .bio {
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    } 
+
+    .profesi {
+        font-size: 1rem;
+    }
+
+    .medsos a i {
+        font-size: 1rem;
+        margin-right: 5px;
+        border-radius: 5px;
+        width: 23px;
+        height: 23px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .container-nav {
+        padding: 3px 10px;
+    }
+
+    .list {
+        margin: 0 5px;
+        width: 40px;
+        height: 40px;
+        padding: 2px 4px;
+    }
+    
+    .list p {
+        font-size: .7rem;
+        margin-top: 3px;
+        font-weight: bold;
+    }
+    
+    .list i {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width:349px) {
+    .list {
+        margin: 0;
+    }
+}
+
+/* jumbotron section */
+@media screen and (max-width:480px) {
+    .profil {
+        bottom: -80px;
+        left: 10px;
+    }
+
+    .profil-img {
+        width: 100px;
+    }
+
+    .bio {
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .name {
+        font-size: 1.3rem;
+    } 
+
+    .profesi {
+        font-size: .9rem;
+        margin: 0px 0 3px 0;
+    }
+
+    .medsos a i {
+        font-size: .8rem;
+        margin-right: 5px;
+        border-radius: 5px;
+        width: 20px;
+        height: 20px;
+        line-height: 22px;
+    }
+}
+
+/* about section */
+@media screen and (max-width:614px) {
+    main {
+        margin-top: 130px;
+    }
+
+    .aboutme {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    main {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .isi {
+        font-size: .9rem;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    .aboutme .title-about {
+        font-size: 1rem;
+    }
+}
+
+/* skills section */
+@media screen and (max-width:822px) {
+    .skills {
+        width: 98.6%;
+        margin: 0;
+    }
+
+    .container-skill-name {
+        margin: 1vw;
+    }
+
+    .experiences {
+        margin-top: 1vw;
+    }
+
+    .card-skills {
+        width: 31.6vw;
+        height: 12vw;
+    }    
+
+    .card-skills-dua {
+        width: 48vw;   
+    }
+
+    .isi a {
+        border-radius: 5px;
+        padding: 1px 5px;
+    }
+}
+
+@media screen and (max-width:822px) {
+    .card-skills {
+        width: 31.5vw;
+        height: 12vw;
+    }    
+
+    .card-skills-dua {
+        width: 47.9vw;   
+    }
+}
+
+@media screen and (max-width:731px) {
+    .card-skills {
+        width: 32.32vw;
+        height: 15vw;
+    }    
+
+    .card-skills {
+        margin: 0 2px 4px 2px;
+    }
+
+    .card-skills-dua {
+        width: 48.75vw;   
+    }
+
+    .experiences {
+        margin-top: 2.5vw;
+    }
+}
+
+@media screen and (max-width:729px) {
+    .card-skills {
+        width: 32.31vw;
+        height: 15vw;
+    }
+
+    .card-skills-dua {
+        width: 48.74vw;   
+    }
+}
+
+@media screen and (max-width:718px) {
+    .card-skills {
+        width: 32.30vw;
+        height: 15vw;
+    }
+
+    .card-skills-dua {
+        width: 48.73vw;   
+    }
+}
+
+@media screen and (max-width:704px) {
+    .card-skills {
+        width: 32.29vw;
+        height: 15vw;
+    }
+
+    .card-skills-dua {
+        width: 48.72vw;   
+    }
+}
+
+@media screen and (max-width:692px) {
+    .card-skills {
+        width: 32.28vw;
+        height: 15vw;
+    }
+
+    .card-skills-dua {
+        width: 48.71vw;   
+    }
+}
+
+@media screen and (max-width:680px) {
+    .card-skills {
+        width: 32.27vw;
+        height: 15vw;
+    }
+
+    .card-skills-dua {
+        width: 48.70vw;   
+    }
+}
+
+@media screen and (max-width:668px) {
+    .card-skills {
+        width: 32.26vw;
+        height: 15vw;
+    }
+
+    .card-skills-dua {
+        width: 48.69vw;   
+    }
+}
+
+@media screen and (max-width:658px) {
+    .card-skills {
+        width: 32.25vw;
+        height: 15vw;
+    }
+
+    .card-skills-dua {
+        width: 48.68vw;   
+    }
+}
+
+@media screen and (max-width:647px) {
+    .card-skills {
+        width: 32.24vw;
+        height: 15vw;
+    }
+
+    .card-skills-dua {
+        width: 48.67vw;   
+    }
+}
+
+@media screen and (max-width:635px) {
+    .card-skills {
+        width: 32.23vw;
+        height: 15vw;
+    }
+
+    .card-skills-dua {
+        width: 48.66vw;   
+    }
+}
+
+@media screen and (max-width:627px) {
+    .card-skills {
+        width: 32.22vw;
+        height: 15vw;
+    }
+
+    .card-skills-dua {
+        width: 48.65vw;   
+    }
+}
+
+@media screen and (max-width:617px) {
+    .card-skills {
+        width: 32.21vw;
+        height: 15vw;
+    }
+
+    .card-skills-dua {
+        width: 48.64vw;   
+    }
+}
+
+@media screen and (max-width:606px) {
+    .card-skills {
+        width: 32.20vw;
+        height: 15vw;
+    }
+
+    .card-skills-dua {
+        width: 48.63vw;   
+    }
+}
+
+@media screen and (max-width:599px) {
+    .card-skills {
+        width: 32.19vw;
+        height: 15vw;
+    }
+
+    .card-skills-dua {
+        width: 48.62vw;   
+    }
+}
+
+@media screen and (max-width:589px) {
+    .card-skills {
+        width: 32.18vw;
+        height: 15vw;
+    }
+
+    .card-skills-dua {
+        width: 48.61vw;   
+    }
+}
+
+@media screen and (max-width:580px) {
+    .card-skills {
+        width: 32.17vw;
+        height: 15vw;
+    }
+
+    .card-skills-dua {
+        width: 48.60vw;   
+    }
+}
+
+@media screen and (max-width:573px) {
+    .card-skills {
+        width: 32.16vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.59vw;   
+    }
+}
+
+@media screen and (max-width:565px) {
+    .card-skills {
+        width: 32.15vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.58vw;   
+    }
+}
+
+@media screen and (max-width:556px) {
+    .card-skills {
+        width: 32.14vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.57vw;   
+    }
+}
+
+@media screen and (max-width:548px) {
+    .card-skills {
+        width: 32.13vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.56vw;   
+    }
+}
+
+@media screen and (max-width:542px) {
+    .card-skills {
+        width: 32.12vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.55vw;   
+    }
+}
+
+@media screen and (max-width:534px) {
+    .card-skills {
+        width: 32.11vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.54vw;   
+    }
+}
+
+@media screen and (max-width:527px) {
+    .card-skills {
+        width: 32.10vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.53vw;   
+    }
+}
+
+@media screen and (max-width:519px) {
+    .card-skills {
+        width: 32.09vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.52vw;   
+    }
+}
+
+@media screen and (max-width:514px) {
+    .card-skills {
+        width: 32.08vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.51vw;   
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:507px) {
+    .card-skills {
+        width: 32.07vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.50vw;   
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .card-skills {
+        width: 32.06vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.49vw;   
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:494px) {
+    .card-skills {
+        width: 32.05vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.48vw;   
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:489px) {
+    .card-skills {
+        width: 32.04vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.47vw;   
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:483px) {
+    .card-skills {
+        width: 32.03vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.46vw;   
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:477px) {
+    .card-skills {
+        width: 32.02vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.45vw;   
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:471px) {
+    .card-skills {
+        width: 32.01vw;
+        height: 17vw;
+    }
+
+    .card-skills-dua {
+        width: 48.44vw;   
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:465px) {
+    .card-skills {
+        width: 32vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.43vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:461px) {
+    .card-skills {
+        width: 31.99vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.42vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .card-skills {
+        width: 31.98vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.41vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .card-skills {
+        width: 31.97vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.40vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:445px) {
+    .card-skills {
+        width: 31.96vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.39vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:439px) {
+    .card-skills {
+        width: 31.95vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.38vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:434px) {
+    .card-skills {
+        width: 31.94vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.37vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:431px) {
+    .card-skills {
+        width: 31.93vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.36vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .card-skills {
+        width: 31.92vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.35vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:421px) {
+    .card-skills {
+        width: 31.91vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.34vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:417px) {
+    .card-skills {
+        width: 31.90vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.33vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:412px) {
+    .card-skills {
+        width: 31.89vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.32vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:408px) {
+    .card-skills {
+        width: 31.88vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.31vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .9rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:403px) {
+    .card-skills {
+        width: 31.87vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.30vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:401px) {
+    .card-skills {
+        width: 31.86vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.29vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:396px) {
+    .card-skills {
+        width: 31.85vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.28vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:392px) {
+    .card-skills {
+        width: 31.84vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.27vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:388px) {
+    .card-skills {
+        width: 31.83vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.26vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:384px) {
+    .card-skills {
+        width: 31.82vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.25vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .card-skills {
+        width: 31.81vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.24vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:377px) {
+    .card-skills {
+        width: 31.80vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.23vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:374px) {
+    .card-skills {
+        width: 31.79vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.22vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:371px) {
+    .card-skills {
+        width: 31.78vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.21vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:367px) {
+    .card-skills {
+        width: 31.77vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.20vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:364px) {
+    .card-skills {
+        width: 31.76vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.19vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .card-skills {
+        width: 31.75vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.18vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:357px) {
+    .card-skills {
+        width: 31.74vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.17vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:354px) {
+    .card-skills {
+        width: 31.73vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.16vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .card-skills {
+        width: 31.72vw;
+        height: 20vw;
+    }
+
+    .card-skills-dua {
+        width: 48.15vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:347px) {
+    .card-skills {
+        width: 31.71vw;
+        height: 24vw;
+    }
+
+    .card-skills-dua {
+        width: 48.14vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:345px) {
+    .card-skills {
+        width: 31.70vw;
+        height: 24vw;
+    }
+
+    .card-skills-dua {
+        width: 48.13vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:342px) {
+    .card-skills {
+        width: 31.69vw;
+        height: 24vw;
+    }
+
+    .card-skills-dua {
+        width: 48.12vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:339px) {
+    .card-skills {
+        width: 31.6vw;
+        height: 24vw;
+    }
+
+    .card-skills-dua {
+        width: 48vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:315px) {
+    .card-skills {
+        width: 31.5vw;
+        height: 24vw;
+    }
+
+    .card-skills-dua {
+        width: 47.9vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:291px) {
+    .card-skills {
+        width: 31.4vw;
+        height: 24vw;
+    }
+
+    .card-skills-dua {
+        width: 47.8vw;   
+    }
+
+    .experiences {
+        margin-top: 3.5vw;
+    }
+
+    .skill-name, .experiences p {
+        font-size: .8rem;
+    }
+
+    .arrow-skill-name-js {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .skills {
+        margin: 0;
+        padding-top: 30px;
+    }
+}
+
+/* portfolio section*/
+@media screen and (max-width:822px) {
+    .portfolio {
+        width: 97%;
+    }
+
+    .card-portfolio {
+        width: 44.8vw;
+        margin-bottom: 2.5vw;
+    }
+
+    .card-portfolio-img {
+        height: 24vw;
+    }
+
+}
+
+@media screen and (max-width:730px) {
+    .card-portfolio {
+        margin-bottom: 2vw;
+    }
+}
+
+@media screen and (max-width:672px) {
+    .card-portfolio {
+        margin-bottom: 1.5vw;
+    }
+}
+
+@media screen and (max-width:639px) {
+    .portfolio {
+        width: 97.5%;
+    }
+}
+
+@media screen and (max-width:607px) {
+    .card-portfolio {
+        margin-bottom: 1.1vw;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .card-portfolio {
+        margin-bottom: 1.2vw;
+        padding: 1.6vw;
+    }    
+}
+
+@media screen and (max-width:500px) {
+    .portfolio-name {
+        font-size: .9rem;
+    }
+
+    .button {
+        font-size: .8rem;
+        padding: 3px 6px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .portfolio {
+        padding-top: 30px;
+    }
+}
+
+/* writing section */
+@media screen and (max-width:822px) {
+    .writing {
+        width: 97%;
+    }
+
+    .card-writing {
+        width: 47.5vw;
+    }
+
+    .img-card-writing {
+        width: 47.5vw;
+        height: 30vw;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .writing-name {
+        font-size: .9rem;
+    }
+
+    .writing-btn {
+        margin-right: 5px;
+    }
+
+    .writing-btn p {
+        margin: 3px 6px;
+        font-size: .8rem;
+    }
+
+    .see-all {
+        padding: 4px;
+        font-size: .7rem;
+        border-radius: 3px;
+    }
+
+    .arrow-writing {
+        margin-top: 1px;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .title-portflio, .title-writing {
+        font-size: 1rem;
+    }
+
+    .arrow-writing {
+        margin-top: 1px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .writing {
+        padding-top: 30px;
+    }
+}
+
+/* gallery section */
+@media screen and (max-width:822px) {
+    .gallery {
+        width: 97%;
+    }
+
+    .card-gallery {
+        width: 31.6vw;
+        height: 31.6vw;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .card-gallery {
+    margin-bottom: 1.2vw;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .preview-box {
+        max-width: 95%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .gallery {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .title-gallery {
+        font-size: 1rem;
+    }
+}
+
+/* footer section */ 
+@media screen and (max-width:394px) {
+    footer { 
+        margin-top: 20px;
+        margin-bottom: 70px;
+        font-size: .8rem;
+    }
+}
+
+/* all cursor */
+@media screen and (max-width:834px) {
+    * {
+        cursor: default;
+    }
+
+    a {
+        cursor: default;
+    }
+}
